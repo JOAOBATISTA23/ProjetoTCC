@@ -1,0 +1,161 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+
+}
+
+body {
+    height: 200px;
+    background-image: linear-gradient(to right, rgb(21, 255, 185), rgb(0, 183, 255));
+    margin: 20px;
+}
+
+.main h1 {
+    display: flex;
+    justify-content: center;
+}
+
+.vista {
+    width: 40%;
+    border-radius: 10%;
+}
+
+h1 {
+    font-size: 70px;
+}
+
+p {
+    font-size: 30px;
+}
+
+.container-nav button {
+
+    background-color: black;
+}
+
+.logo {
+    width: 60px;
+    height: 100%;
+}
+
+.container-nav a {
+    color: white;
+    /* Força a cor branca no link */
+    text-decoration: none;
+    /* Remove sublinhado do link */
+    font-weight: 700;
+}
+
+.container-nav {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.container-logo {
+    display: flex;
+}
+
+.container-img {
+    display: flex;
+    gap: 100px;
+    margin-left: 50px;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-img h2 {
+    font-size: 60px;
+}
+
+button {
+    background-color: #13b620;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #13b620;
+}
+
+
+.img1 {
+    display: flex;
+    gap: 50px;
+}
+
+.img1 img {
+    width: 65%;
+    border-radius: 10%;
+    display: flex;
+}
+
+.img2 {
+    display: flex;
+    gap: 50px;
+}
+
+.img2 img {
+    width: 50%;
+    border-radius: 10%;
+    display: flex;
+}
+
+.img3 {
+    display: flex;
+    gap: 50px;
+}
+
+.img3 img {
+    width: 50%;
+    border-radius: 10%;
+    display: flex;
+}
+  
+.img4 {
+    display: flex;
+    gap: 50px;
+}
+
+.img4 img {
+    width: 60%;
+    border-radius: 10%;
+    display: flex;
+}
+.img5 {
+    display: flex;
+    gap: 50px;
+}
+
+.img5 img {
+    width: 50%;
+    border-radius: 10%;
+    display: flex;
+}
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.faixa {
+    background-color: #f5df1c; /* Cor de fundo da faixa */
+    color: white; /* Cor do texto */
+    text-align: center;
+    padding: 50px 0; /* Espaçamento interno */
+    font-size: 24px;
+}
+
+.faixa h1 {
+    margin: 0;
+    font-size: 48px;
+}
+
+.faixa p {
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+    

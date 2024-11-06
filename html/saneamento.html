@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/css/saneamento.css">
+</head>
+
+<body>
+    <nav class="container-nav">
+        <div class="container-logo">
+            <img class="logo" src="/imagens/SERRANO_SOCIAL-removebg-preview.png" alt="">
+            <p>SERRANO SOCIAL</p>
+        </div>
+        <button><a href="/html/index.html">INICIO </a></button>
+        <button><a href="/html/saneamento.html">SANEAMENTO </a></button>
+        <button><a href="/html/turismo.html">TURISMO</a></button>
+        <button><a href="/html/saude.html">SAÚDE</a></button>
+        <button><a href="/html/sobrenos.html">SOBRE NÓS</a></button>
+    </nav>
+    <section>
+        <h1>SANEAMENTO</h1>
+        <h2>Dados sobre o saneamento atual de Serra Negra</h2>
+        <img src="/imagens/saneamento-img/estatistica.png" alt="">
+    </section>
+    <section>
+
+        <h1>Empresas de saneamento</h1>
+        <h2>- Sabesp - Companhia de Saneamento Básico do Estado de São paulo</h2>
+        <h3>Rua Dr. Joaquim de a Almeida, Serra Negra, SP, 13930
+            (19) 3842-2070</h3>
+
+            <h2>- Disk Entulho</h2>
+            <h3>Rua Antônio Pedro Topan , 85,
+                Jardim Etabaquara, Serra Negra, SP
+               telefone (19) 3892-1500 </h3>    
+                <h1>Escreva aqui o seu Problema</h1>
+    </section>
+        <form class="form" action="/enviar-feedback" method="POST">
+            <label for="nome">Nome:</label>
+            <input class="nome" type="text" id="nome" name="nome" required>
+
+            <label for="email">Email:</label>
+            <input class="email" type="email" id="email" name="email" required>
+
+            <label for="problema">Descreva o problema:</label>
+            <textarea class="descreva " id="problema" name="problema" rows="5" required></textarea>
+
+            <button type="submit">Enviar</button>
+
+
+        </form>
+
+</body>
+
+</html>
