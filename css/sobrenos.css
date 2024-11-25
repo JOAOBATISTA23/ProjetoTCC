@@ -1,12 +1,16 @@
-*{
+* {
     font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* Evita que o padding afete o tamanho total do elemento */
 
 }
 
 body {
     height: 200px;
     background-image: linear-gradient(to right, rgb(21, 255, 185), rgb(0, 183, 255));
-    margin: 20px;
+
 }
 
 .fonte-trevi {
@@ -25,7 +29,7 @@ h1 {
 
 p {
     font-size: 30px;
-}   
+}
 
 
 .container-nav button {
@@ -33,14 +37,16 @@ p {
     background-color: black;
 }
 
-.logo{
+.logo {
     width: 60px;
     height: 100%;
 }
 
 .container-nav a {
-    color: white; /* Força a cor branca no link */
-    text-decoration: none; /* Remove sublinhado do link */
+    color: white;
+    /* Força a cor branca no link */
+    text-decoration: none;
+    /* Remove sublinhado do link */
     font-weight: 700;
 }
 
@@ -48,29 +54,31 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 20px;
 }
 
-.container-logo{
+.container-logo {
     display: flex;
 }
 
-.container-img{
+.container-img {
     display: flex;
     gap: 100px;
     margin-left: 50px;
     justify-content: center;
 }
+
 button {
-    background-color: #13b620; 
-    color: white; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 15px; 
-    cursor: pointer; 
+    background-color: #13b620;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 button:hover {
-    background-color: #13b620; 
+    background-color: #13b620;
 }
 
 .container-text {
@@ -83,22 +91,27 @@ button:hover {
     width: 200px;
 
 }
-.email{
+
+.email {
     width: 200px;
 }
+
 .descreva {
-    width:300px;
+    width: 300px;
     height: 100px;
 }
 
-.form{
+.form {
 
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.form button{
+.form button {
     margin-top: 50px;
     width: 100px;
 }
+
+
+

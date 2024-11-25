@@ -1,12 +1,13 @@
 * {
     font-family: 'Open Sans', sans-serif;
+    padding: 0;
+    box-sizing: border-box;
+    /* Evita que o padding afete o tamanho total do elemento */
 
 }
-
 body {
     height: 200px;
     background-image: linear-gradient(to right, rgb(21, 255, 185), rgb(0, 183, 255));
-    margin: 20px;
 }
 
 .fonte-trevi {
@@ -48,6 +49,7 @@ p {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+    margin: 20px    ;
 }
 
 .container-logo{
@@ -102,3 +104,5 @@ button:hover {
     margin-top: 50px;
     width: 100px;
 }
+
+
