@@ -64,6 +64,7 @@ p {
     gap: 100px;
     margin-left: 50px;
     justify-content: center;
+    margin-top: 50px;
 }
 button {
     background-color: #13b620; 
