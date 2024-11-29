@@ -29,7 +29,7 @@ h1 {
 
 p {
     font-size: 30px;
-}   
+}
 
 
 .container-nav button {
@@ -37,14 +37,16 @@ p {
     background-color: black;
 }
 
-.logo{
+.logo {
     width: 60px;
     height: 100%;
 }
 
 .container-nav a {
-    color: white; /* Força a cor branca no link */
-    text-decoration: none; /* Remove sublinhado do link */
+    color: white;
+    /* Força a cor branca no link */
+    text-decoration: none;
+    /* Remove sublinhado do link */
     font-weight: 700;
 }
 
@@ -54,11 +56,11 @@ p {
     align-items: center;
 }
 
-.container-logo{
+.container-logo {
     display: flex;
 }
 
-.container-img{
+.container-img {
     display: flex;
     gap: 100px;
     margin-left: 50px;
@@ -70,18 +72,19 @@ p {
     margin-top: 50px;
     margin-bottom: 50px;
 }
+
 button {
-    background-color: #13b620; 
-    color: white; 
-    padding: 10px 20px; 
-    border: none; 
-    border-radius: 15px; 
-    cursor: pointer; 
+    background-color: #13b620;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 
 button:hover {
-    background-color: #13b620; 
+    background-color: blueviolet;
 }
 
 .container-text {
@@ -94,25 +97,41 @@ button:hover {
     width: 200px;
 
 }
-.email{
+
+.email {
     width: 200px;
 }
+
 .descreva {
-    width:300px;
+    width: 300px;
     height: 100px;
 }
 
-.form{
+.form {
 
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.form button{
+.form button {
     margin-top: 50px;
     width: 100px;
 }
 
+.botao-farmacia {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 50px;
+    
+}
 
+.botao-farmacia a {
+    color: white;
+    text-decoration: none;
+}
 
+.botao-farmacia:hover{
+    background-color: blueviolet
+}
